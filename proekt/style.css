@@ -53,10 +53,10 @@ h2 {
     margin: 5px;
     border-radius: 5px;
     object-fit: cover;
+    transition: 0.3s ease;
 }
-
-.gallery img :hover {
-    transform(1.1);
+.gallery img:hover {
+    transform:scale(1.1);
 }
 
 .proektberbata img {
